@@ -10,6 +10,12 @@
 html,
 body {
   height: 100%;
+  overflow-x: hidden !important;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 .imptext h2 {
@@ -67,9 +73,13 @@ footer {
 @media only screen and (min-width: 1080px) {
   .imptext h2 {
     font-size: 4rem;
+    max-width: 30rem;
+    line-height: 6rem;
   }
   .imptext p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    max-width: 30rem;
+    line-height: 2.5rem;
   }
   footer {
     font-size: 1.5rem;
