@@ -10,15 +10,14 @@
 html,
 body {
   height: 100%;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .container {
   max-width: 100% !important;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -88,17 +87,5 @@ footer {
   }
   footer {
     font-size: 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 675px) {
-  .imptext h2 {
-    font-size: 1.5rem;
-  }
-  .imptext p {
-    font-size: 1rem;
-  }
-  footer {
-    font-size: 0.7rem;
   }
 }
